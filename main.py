@@ -13,5 +13,14 @@ print(ser.dtype)
 Sub = ['Math', 'Geo', 'Hist', 'Hindi']
 Marks = [19, 20, 20, 40]
 
-a = pd.Series(Marks, index=Sub ,name = 'Anirudha')
+a = pd.Series(Marks, index=Sub, name='Anirudha')
 print(a)
+
+# Pandas Dictionary
+
+dic1 = {
+    'Math': 20,
+    'Geo': 30,
+    'Hindi': 10
+}
+print(pd.Series(dic1))
