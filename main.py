@@ -8,3 +8,10 @@ ser = pd.Series(data)
 print(ser)
 
 print(ser.dtype)
+
+# custom index
+Sub = ['Math', 'Geo', 'Hist', 'Hindi']
+Marks = [19, 20, 20, 40]
+
+a = pd.Series(Marks, index=Sub ,name = 'Anirudha')
+print(a)
